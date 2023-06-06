@@ -1,2 +1,2 @@
 # Number Guessing Game
-## This game is built with HTML, CSS & and vanilla JavaScipt.
+## This game is built with HTML, CSS & and vanilla JavaSrcipt.

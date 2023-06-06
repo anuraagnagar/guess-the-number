@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Guess The Number</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font API -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Quicksand:wght@700&family=Righteous&family=Roboto:wght@700&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icon API -->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <div class="main-container">
+            <div class="main-box">
+                <div class="main-box-item">
+                    <div class="main-heading">
+                        <button id="reset"><i class="fa-solid fa-rotate-right"></i></button>
+                        <h2>Guess The Number!</h2>
+                    </div>
+                    <p>Between 0 to 25</p>
+                </div>
+                <div class="score-info">
+                    <h4>Chances :<p id="chances"></p>
+                    </h4>
+                    <h4>High Score :<p id="highscore" class="high"></p>
+                    </h4>
+                </div>
+                <div class="number-field">
+                    <div class="number-box">
+                        <h1 class="number"></h1>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <p id="message">Start Guessing...</p>
+                    <hr>
+                    <input type="text" maxlength="2" autofocus="true" onkeypress="return restrictKey(event)" required />
+                    <button id="check-btn">Check</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

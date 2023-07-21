@@ -1,7 +1,6 @@
 # Number Guessing Game
-<<<<<<< HEAD
+
 ## This game is built with HTML, CSS & and vanilla JavaScript.
-=======
 
 ## A simple number guessing game built with HTML, CSS, and JavaScript.
 
@@ -11,7 +10,11 @@ The Number Guessing Game is a fun and interactive web-based game where the playe
 
 ## Live Preview
 
-![Number Guessing Game Preview]()
+![Number Guessing Game Preview](https://guess-thenumber08.netlify.app)
+
+## Screenshot of Game
+
+![Screenshot](https://github.com/anuraagnagar/guess-the-number/screenshot.jpg)
 
 ## Step to run this project
 
@@ -49,4 +52,3 @@ cd guess-the-number
 ```bash
 index.html
 ```
->>>>>>> 39393fbc6417f2543441979cdd8749093a517a37

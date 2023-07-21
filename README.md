@@ -10,7 +10,7 @@ The Number Guessing Game is a fun and interactive web-based game where the playe
 
 ## Live Preview
 
-![Number Guessing Game Preview](https://guess-thenumber08.netlify.app)
+<a href="https://guess-thenumber08.netlify.app/">https://guess-thenumber08.netlify.app/</a>
 
 ## Screenshot of Game
 

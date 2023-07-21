@@ -22,13 +22,13 @@ const restrictKey = function (event) {
   return output;
 };
 
-checkButton.addEventListener("click", function () {
+const getInput = () => {
   if (document.querySelector("input").value !== "") {
     if (parseInt(document.querySelector("input").value) <= 25 && chance > 0) {
       if (Number(document.querySelector("input").value) == randomNumber) {
         document.querySelector(
           "#message"
-        ).innerHTML = `<i class="fa-solid fa-circle-check"></i> Congratulation You got the number!`;
+        ).innerHTML = `<i class="fa-solid fa-circle-check"></i> Congratulation! You got the number.`;
         document.querySelector("#message").style.color = "Green";
         document.querySelector(".number").textContent = randomNumber;
         input.setAttribute("disabled", "");
@@ -52,9 +52,11 @@ checkButton.addEventListener("click", function () {
       input.setAttribute("disabled", "");
     }
   }
-});
+}
 
-resetButton.addEventListener("click", function () {
+checkButton.addEventListener("click", getInput);
+
+const resetGame = () => {
   randomNumber = Math.floor(Math.random() * 25 + 1);
   if (input.hasAttribute("disabled")) {
     input.removeAttribute("disabled");
@@ -65,4 +67,6 @@ resetButton.addEventListener("click", function () {
   document.querySelector("#message").textContent = "Start Guessing...";
   document.querySelector("#message").style.color = "";
   document.querySelector(".number").textContent = "?";
-});
+}
+
+resetButton.addEventListener("click", resetGame);

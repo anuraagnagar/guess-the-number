@@ -14,7 +14,7 @@ The Number Guessing Game is a fun and interactive web-based game where the playe
 
 ## Screenshot of Game
 
-![Screenshot](https://github.com/anuraagnagar/guess-the-number/screenshot.jpg)
+![Screenshot](https://github.com/anuraagnagar/guess-the-number/blob/main/screenshot.jpg)
 
 ## Step to run this project
 
